@@ -1,0 +1,15 @@
+---
+- hosts: all
+  become: true
+  roles:
+    - { role: centos-kernel }
+    - { role: firewall-disable }
+    - { role: sudoers }
+    - { role: ssh, ssh_gssapi_authentication_enabled: "no" }
+    - { role: essential-tools }
+    - { role: ruby }
+    - { role: node }
+    - { role: redis }
+    - { role: mailcatcher, mailcatcher_postfix_disabled: True }
+    - { role: wickedpdf }
+    - { role: docker }

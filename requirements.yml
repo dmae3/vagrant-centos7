@@ -1,0 +1,12 @@
+- src: dmae3.centos-kernel
+- src: dmae3.firewall-disable
+- src: dmae3.sudoers
+- src: dmae3.ssh
+- src: dmae3.essential-tools
+- src: dmae3.ruby
+- src: dmae3.node
+- src: dmae3.mysql
+- src: dmae3.redis
+- src: dmae3.mailcatcher
+- src: dmae3.wickedpdf
+- src: dmae3.docker
