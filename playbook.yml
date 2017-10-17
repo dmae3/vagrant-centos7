@@ -2,14 +2,14 @@
 - hosts: all
   become: true
   roles:
-    - { role: centos-kernel }
-    - { role: firewall-disable }
-    - { role: sudoers }
-    - { role: ssh, ssh_gssapi_authentication_enabled: "no" }
-    - { role: essential-tools }
-    - { role: ruby }
-    - { role: node }
-    - { role: redis }
-    - { role: mailcatcher, mailcatcher_postfix_disabled: True }
-    - { role: wickedpdf }
-    - { role: docker }
+    - { role: galaxy-centos-kernel }
+    - { role: galaxy-firewall-disable }
+    - { role: galaxy-sudoers }
+    - { role: galaxy-ssh, ssh_gssapi_authentication_enabled: "no" }
+    - { role: galaxy-essential-tools }
+    - { role: galaxy-ruby }
+    - { role: galaxy-node }
+    - { role: galaxy-redis }
+    - { role: galaxy-mailcatcher, mailcatcher_postfix_disabled: True }
+    - { role: galaxy-wickedpdf }
+    - { role: galaxy-docker }
