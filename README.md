@@ -1,4 +1,4 @@
-# CentOS7 Ruby base vagrant image
+# CentOS7 Ruby vagrant base image
 ## Overview  
 Ruby開発用local環境
 
@@ -25,7 +25,7 @@ $ vagrant plugin install vagrant-vbguest
 
 # /HOST APPLICATION PATHをApplicationのパスに変更する
 $ vim Vagrantfile
-$ rm -rf roles/*
+$ rm -rf roles/dmae3.galaxy-*
 $ ansible-galaxy install -r requirements.yml -p roles
 $ vagrant up
 ```
@@ -34,7 +34,7 @@ $ vagrant up
 vagrantの更新が行われた際のオペレーション
 ```bash
 $ git pull
-$ rm -rf roles/galaxy-*
+$ rm -rf roles/dmae3.galaxy-*
 $ ansible-galaxy install -r requirements.yml -p roles
 $ vagrant up --provision
 ```
