@@ -3,10 +3,12 @@
 - src: dmae3.galaxy-sudoers
 - src: dmae3.galaxy-ssh
 - src: dmae3.galaxy-essential-tools
+- src: dmae3.galaxy-imagemagick
 - src: dmae3.galaxy-ruby
 - src: dmae3.galaxy-node
 - src: dmae3.galaxy-mysql
 - src: dmae3.galaxy-redis
+- src: dmae3.galaxy-memcached
 - src: dmae3.galaxy-mailcatcher
 - src: dmae3.galaxy-wickedpdf
 - src: dmae3.galaxy-docker
