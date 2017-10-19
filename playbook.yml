@@ -9,7 +9,6 @@
     - { role: dmae3.galaxy-essential-tools }
     - { role: dmae3.galaxy-mysql }
     - { role: dmae3.galaxy-redis }
-    - { role: dmae3.galaxy-memcached }
     - { role: dmae3.galaxy-node }
     - { role: dmae3.galaxy-ruby }
     - { role: dmae3.galaxy-docker }
