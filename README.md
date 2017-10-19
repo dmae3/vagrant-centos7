@@ -54,5 +54,3 @@ $ vagrant reload
 [http://localhost:11080]("http://localhost:11080")
 * rails  
 [http://localhost:13000]("http://localhost:13000")
-* minio  
-[http://localhost:19000]("http://localhost:19000")
